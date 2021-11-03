@@ -1,0 +1,229 @@
+.containerc {
+  background-image: url("fopo.jpg");
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.heq {
+  margin-bottom: 20px;
+  margin-left: 110px;
+}
+
+.conform {
+  margin-top: 20px;
+  left: 900px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.conform > input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.conform > input:focus,
+textarea:focus {
+  border: 1px solid cadetblue(0, 0, 196);
+}
+
+.conform > textarea {
+  height: 200px;
+  width: 300px;
+}
+
+.conform > label {
+  text-align: center;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.conform > .conb {
+  margin-left: 100px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  height: 50px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.conform > .conb:hover {
+  background-color: darkslateblue;
+  opacity: 1;
+}
+
+.conb:hover {
+  background-color: #555;
+  text-align: left;
+}
+
+.containerf {
+  position: absolute;
+  margin: 0 auto;
+  padding: 4rem;
+  width: 30rem;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.accordion .accordion-item button[aria-expanded="true"] {
+  border-bottom: 1px solid #03b5d2;
+}
+
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: rgb(0, 0, 32);
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.accordion button:hover,
+.accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+
+.accordion button:hover::after,
+.accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+
+.accordion button[aria-expanded="true"] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded="true"] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded="true"] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+.containeri {
+  left: 550px;
+  position: absolute;
+  bottom: 50px;
+  width: 30%;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+@media (max-width: 500px) {
+  .containerc {
+    margin-right: 200px;
+    margin-top: 5vh;
+  }
+}

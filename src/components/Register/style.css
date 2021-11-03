@@ -1,0 +1,96 @@
+.headreg {
+  text-align: center;
+}
+
+.bg {
+  background-image: url("Food Pic.jpg");
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.regform {
+  margin-top: 200px;
+  margin-left: 430px;
+  padding: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.headreg {
+  text-align: center;
+}
+
+.regform > h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.regform > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  background: #f1f1f1;
+  /* background: #fff; */
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.regform > input:focus,
+textarea:focus {
+  border: 1px solid cadetblue(0, 0, 196);
+}
+
+.regform > textarea {
+  height: 100px;
+  max-width: 200px;
+  min-height: 100px;
+}
+
+.regform > label {
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.regform > button {
+  margin-left: 150px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  height: 50px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.regform > button:hover {
+  background-color: darkslateblue;
+  opacity: 1;
+}
+
+.regform > button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.term {
+  margin-top: 10px;
+  text-align: center;
+}

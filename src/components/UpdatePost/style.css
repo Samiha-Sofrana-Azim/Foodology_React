@@ -1,0 +1,88 @@
+.upbg {
+  background-image: url("upic.jpg");
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+body,
+.name,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.upform {
+  margin-top: 250px;
+  margin-left: 300px;
+  padding: 30px;
+  background: #f1f1f1;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.headu {
+  text-align: center;
+  color: green;
+}
+.upform > .name,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+.uppic {
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+.upform > .name:focus,
+textarea:focus {
+  border: 1px solid cadetblue(0, 0, 196);
+}
+
+.upform > textarea {
+  height: 100px;
+  max-width: 400px;
+  min-height: 200px;
+}
+
+.upform > label {
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.upform > button {
+  margin-left: 250px;
+  margin-top: 20px;
+  background-color: blueviolet;
+  height: 50px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.upform > button:hover {
+  background-color: green;
+  opacity: 1;
+}
+
+.upform > button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

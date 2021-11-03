@@ -1,0 +1,14 @@
+.fixed-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+.container {
+  margin-top: 5px;
+}

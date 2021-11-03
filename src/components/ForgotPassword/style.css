@@ -1,0 +1,86 @@
+.bggg {
+  background-image: url("Foopic.jpg");
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.passform {
+  margin-top: 200px;
+  margin-left: 430px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.headfo {
+  color: rgb(0, 0, 32);
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.passform > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+
+  margin-bottom: 5px;
+  border: 1px solid lightgray;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+}
+
+.passform > input:focus,
+textarea:focus {
+  border: 1px solid cadetblue(0, 0, 196);
+}
+
+.passform > textarea {
+  height: 150px;
+  max-width: 400px;
+  min-height: 100px;
+}
+
+.passform > label {
+  padding-bottom: 10px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+}
+
+.passform > button {
+  border: 1px outset blue;
+  background-color: blueviolet;
+  height: 50px;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.passform > button:hover {
+  background-color: darkslateblue;
+  opacity: 1;
+}
+.button:hover {
+  background-color: #555;
+  text-align: left;
+}
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+/* @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+} */
